@@ -14,9 +14,9 @@ MSc Computing Project<br>April 2025
 ## Application – Financial Chatbot
 This folder contains the implementation of the Financial Chatbot system developed as part of the MSc Computing Project.<br>
 [Access the Application Folder →](https://github.com/busilas/MScCP/tree/main/application)
+<br>
 
-
-# Appendices
+## Appendices
 
 ## APPENDIX B – Online Questionnaire Report
 A detailed report summarising the findings and analysis of the online questionnaire conducted during the research phase.<br>
