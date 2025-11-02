@@ -11,8 +11,9 @@ MSc Computing Project<br>April 2025
 <br>
 
 ## Table of Contents
-### [Unit 1](/Unit01/) - [Introduction to Secure Software Development](https://www.my-course.co.uk/course/view.php?id=12586&section=7)
-- Collaborative discussion 1 - Initial Post
+### Application – Financial Chatbot
+This folder contains the implementation of the Financial Chatbot system developed as part of the MSc Computing Project.
+[Access the Application Folder →](https://github.com/busilas/MScCP/tree/main/application )
 
 ### [Unit 2](/Unit02/) - [UML Modelling to Support Secure System Planning](https://www.my-course.co.uk/course/view.php?id=12586&section=8)
 - Collaborative discussion 1 - Peer Responses
