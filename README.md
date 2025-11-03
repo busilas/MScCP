@@ -42,3 +42,7 @@ A comprehensive report evaluating the usability of the Financial Chatbot applica
 ## APPENDIX G – Stakeholder Requirements Summary
 A summary document outlining the key requirements identified from stakeholder consultations.<br>
 [View Appendix G →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixG_StakeholdersRequirementsSummary.pdf)
+
+## APPENDIX H – Results Calculations and Statistical Analysis
+This appendix presents the detailed calculations and statistical analyses underpinning the quantitative results discussed in Chapter 5 of the dissertation.<br>
+[View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixG_StakeholdersRequirementsSummary.pdf)
