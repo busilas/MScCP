@@ -45,4 +45,4 @@ A summary document outlining the key requirements identified from stakeholder co
 
 ## APPENDIX H – Results Calculations and Statistical Analysis
 This appendix presents the detailed calculations and statistical analyses underpinning the quantitative results discussed in Chapter 5 of the dissertation.<br>
-[View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixG_StakeholdersRequirementsSummary.pdf)
+[View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
