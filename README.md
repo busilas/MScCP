@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="https://goodlogo.com/images/logos/university_of_essex_logo_3621.gif" alt="logo)" height="120"/>
+<img src="https://www.click4assistance.co.uk/dyn/blogs/STK_Uni_of_Essex_Logo2_42.png" alt="logo)" height="120"/>
 </p>
 
 <h1 align="center">
