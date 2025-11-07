@@ -19,30 +19,38 @@ This folder contains the implementation of the Financial Chatbot system develope
 
 ## Appendices
 
-## APPENDIX B – Online Questionnaire Report
+## APPENDIX B: Online Questionnaire Report
 A detailed report summarising the findings and analysis of the online questionnaire conducted during the research phase.<br>
 [View Appendix B →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixB_OnlineQuestionnaireReport.pdf)
 
-## APPENDIX C – Online Questionnaire
+## APPENDIX C: Online Questionnaire
 The complete version of the online questionnaire used to gather participant responses.<br>
 [View Appendix C →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixC_OnlineQuestionnaire.pdf)
 
-## APPENDIX D – In-Depth Interview Report
+## APPENDIX D: In-Depth Interview Report
 An analytical report presenting insights gathered from the in-depth interview sessions.<br>
 [View Appendix D →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixD_In_DepthInterviewReport.pdf)
 
-## APPENDIX E – In-Depth Interview
+## APPENDIX E: In-Depth Interview
 The full transcript of the in-depth interview conducted as part of the research study.<br>
 [View Appendix E →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixE_In-depthInterview.pdf)
 
-## APPENDIX F – Usability Testing Report
+## APPENDIX F: Usability Testing Report
 A comprehensive report evaluating the usability of the Financial Chatbot application based on user testing.<br>
 [View Appendix F →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixF_Usability_Testing_Report.pdf)
 
-## APPENDIX G – Stakeholder Requirements Summary
+## APPENDIX G: Stakeholder Requirements Summary
 A summary document outlining the key requirements identified from stakeholder consultations.<br>
 [View Appendix G →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixG_StakeholdersRequirementsSummary.pdf)
 
-## APPENDIX H – Results Calculations and Statistical Analysis
+## APPENDIX H: Results Calculations and Statistical Analysis
 This appendix presents the detailed calculations and statistical analyses underpinning the quantitative results discussed in Chapter 5 of the dissertation.<br>
+[View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
+
+## APPENDIX I: Adversarial Attack Scenarios for Testing
+This appendix !!!!!!!!!.<br>
+[View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
+
+## APPENDIX J: Prompt Engineering Examples
+This appendix !!!!!!!!!.<br>
 [View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
