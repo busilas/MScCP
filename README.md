@@ -48,9 +48,9 @@ This appendix presents the detailed calculations and statistical analyses underp
 [View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
 
 ## APPENDIX I: Adversarial Attack Scenarios for Testing
-This appendix !!!!!!!!!.<br>
+The complete version of the adversarial attack scenarios for testing.<br>
 [View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
 
 ## APPENDIX J: Prompt Engineering Examples
-This appendix !!!!!!!!!.<br>
+A summary document outlining the key prompt engineering.<br>
 [View Appendix H →](https://github.com/busilas/MScCP/blob/main/Appendixes/AppendixH_ResultsCalculationsAndStatisticalAanalysis.pdf)
