@@ -388,7 +388,7 @@ application/
 │   ├── clean/
 │   └── examples/
 ├── utils/                # Utility scripts
-├── generators/           # Synthetic queries scripts
+├── generators/           # Synthetic queries scripts (run separately)
 ├── main.py               # Application entry point
 ├── requirements.txt
 ├── Dockerfile
