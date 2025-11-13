@@ -104,14 +104,7 @@ python main.py init_db
 python main.py create_admin
 ```
 
-5. **Run Application**
-```bash
-python main.py
-# Access at http://localhost:5000
-```
-
-## 🔐 Default User Accounts
-
+5. **Initialize Default User Accounts**
 Two user accounts are automatically created:
 
 ### Admin Account
@@ -129,6 +122,12 @@ Two user accounts are automatically created:
 These are created by running:
 ```bash
 python main.py create_default_users
+```
+
+6. **Run Application**
+```bash
+python main.py
+# Access at http://localhost:5000
 ```
 
 ## Configuration
@@ -479,4 +478,3 @@ For issues or questions:
 - FAISS by Facebook Research
 - Flask framework
 - Bootstrap UI components
-
