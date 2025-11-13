@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-gear"></i> Admin Dashboard</h2>
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="bi bi-people fs-1 text-primary"></i>
+                <h3 class="mt-2">{{ stats.total_users }}</h3>
+                <p class="text-muted mb-0">Total Users</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="bi bi-chat-dots fs-1 text-success"></i>
+                <h3 class="mt-2">{{ stats.total_queries }}</h3>
+                <p class="text-muted mb-0">Total Queries</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="bi bi-file-earmark-text fs-1 text-info"></i>
+                <h3 class="mt-2">{{ stats.total_documents }}</h3>
+                <p class="text-muted mb-0">Documents</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="bi bi-database fs-1 text-warning"></i>
+                <h3 class="mt-2">{{ stats.total_training_files }}</h3>
+                <p class="text-muted mb-0">Training Files</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">System Settings</h5>
+            </div>
+            <div class="card-body">
+                <form id="settingsForm">
+                    <div class="mb-3">
+                        <label class="form-label">Authentication</label>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="authRequired"
+                                   {% if settings.auth_required %}checked{% endif %}>
+                            <label class="form-check-label" for="authRequired">
+                                Require authentication
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="chatbotMode" class="form-label">Chatbot Mode</label>
+                        <select class="form-select" id="chatbotMode">
+                            <option value="distilbert" {% if settings.chatbot_mode == 'distilbert' %}selected{% endif %}>
+                                DistilBERT Only
+                            </option>
+                            <option value="llama" {% if settings.chatbot_mode == 'llama' %}selected{% endif %}>
+                                LLaMA Only
+                            </option>
+                            <option value="hybrid" {% if settings.chatbot_mode == 'hybrid' %}selected{% endif %}>
+                                Hybrid (Recommended)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Model Execution</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="useLocalDistilbert"
+                                   {% if settings.use_local_distilbert %}checked{% endif %}>
+                            <label class="form-check-label" for="useLocalDistilbert">
+                                Use local DistilBERT model
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="useLocalLlama"
+                                   {% if settings.use_local_llama %}checked{% endif %}>
+                            <label class="form-check-label" for="useLocalLlama">
+                                Use local LLaMA model
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Save Settings
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent Activity</h5>
+            </div>
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    {% for log in recent_logs %}
+                    <div class="list-group-item px-0">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <small class="text-muted">{{ log.timestamp.strftime('%Y-%m-%d %H:%M') }}</small>
+                                <p class="mb-1 small">{{ log.query[:80] }}...</p>
+                            </div>
+                            <span class="badge bg-{{ 'primary' if log.mode_used == 'hybrid' else 'secondary' }}">
+                                {{ log.mode_used }}
+                            </span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('settingsForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const settings = {
+        auth_required: document.getElementById('authRequired').checked,
+        chatbot_mode: document.getElementById('chatbotMode').value,
+        use_local_distilbert: document.getElementById('useLocalDistilbert').checked,
+        use_local_llama: document.getElementById('useLocalLlama').checked
+    };
+
+    try {
+        const response = await fetch('/admin/settings', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(settings)
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            alert('Settings saved successfully!');
+        } else {
+            alert('Error: ' + (data.error || 'Failed to save settings'));
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+    }
+});
+</script>
+{% endblock %}
