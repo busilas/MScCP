@@ -107,13 +107,13 @@ python main.py create_admin
 5. **Initialize Default User Accounts**
 Two user accounts are automatically created:
 
-### Admin Account
+ **Admin Account**
 - **Username:** `admin`
 - **Password:** `admin123`
 - **Email:** admin@example.com
 - **Permissions:** Full system access
 
-### Regular User Account
+ **Regular User Account**
 - **Username:** `user`
 - **Password:** `user123`
 - **Email:** user@example.com
