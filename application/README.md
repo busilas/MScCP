@@ -38,9 +38,9 @@ A production-ready financial chatbot built with Flask, featuring hybrid AI archi
               └────┬────┘
                    │
     ┌──────────────▼────────────────┐
-    │    Intent Classification      │
-    │      (DistilBERT)             │
-    │  + Entity Extraction          │
+    │      Intent Classification    │
+    │         (DistilBERT)          │
+    │     + Entity Extraction       │
     └──────────────┬────────────────┘
                    │
     ┌──────────────▼────────────────┐
@@ -58,8 +58,8 @@ A production-ready financial chatbot built with Flask, featuring hybrid AI archi
     └─────────────┬─────────────────┘
                   │
     ┌─────────────▼─────────────────┐
-    │  Response Generation          │
-    │      (LLaMA)                  │
+    │     Response Generation       │
+    │          (LLaMA)              │
     └─────────────┬─────────────────┘
                   │
              ┌────▼────┐
