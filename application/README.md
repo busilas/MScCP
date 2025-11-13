@@ -359,7 +359,7 @@ python utils/faiss_builder.py training/clean/data.txt data/faiss_index
 sudo service postgresql status
 
 # Test connection
-psql -h localhost -U postgres -d financial_chatbot
+psql -h localhost -U postgres -d application
 ```
 
 **4. Guardian False Positives**
