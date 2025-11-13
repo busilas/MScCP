@@ -83,8 +83,8 @@ A production-ready financial chatbot built with Flask, featuring hybrid AI archi
 
 1. **Clone Repository**
 ```bash
-git clone <repository-url>
-cd financial-chatbot
+git clone <https://github.com/busilas/MScCP/tree/main/application>
+cd application
 ```
 
 2. **Install Dependencies**
@@ -413,7 +413,7 @@ PII_PATTERNS = {
 ## Project Structure
 
 ```
-financial-chatbot/
+application/
 ├── app/
 │   ├── __init__.py
 │   ├── config.py
