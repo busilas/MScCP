@@ -1,0 +1,626 @@
+query_id,query_text,category,source,pii_entities,token_count,differential_privacy
+SYN_0099,I need to update my phone number to +46 (0)902 572 52 for account DYIP19597964715890,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0211,Can you transfer 2273.51 EUR from account GB2445228215376 to Eemil Heikkinen-Karlsson?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0300,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0490,How do I activate mobile banking?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0447,"As an existing customer, what are your current interest rates for savings accounts?",general_banking,curated,[],16.900000000000002,not_applicable
+SYN_0347,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0001,Can you transfer 677.4 EUR from account SE4550124744854 to Donald Walker?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0622,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0370,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0545,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0209,I need to update my phone number to 43113253 for account WPTW27490728012342,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0222,I need to update my phone number to 366.651.2215x0014 for account CGZI77894896340679,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0507,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0401,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0340,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0228,"I need to report my card 3566343925295960 as stolen. I'm Anna Börjesson-Jonsson, phone 0909 879 0337",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0520,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0394,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0257,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0524,What are your current interest rates for savings accounts?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0163,I need to update my phone number to 72446176 for account OXOI02588358681225,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0075,Can you check if payment of 1020.68 EUR to Linda Andersson went through from NO6158443135534?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0034,What's the interest rate on my loan BIMV99013983735403? My email is annikkiraty@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0201,I need to update my phone number to (439)772-8351 for account TBRB51208005640995,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0442,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0241,I need to update my phone number to 762.648.3550 for account TBAV43655158482669,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0284,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0014,What is the balance on my account FI1461687730428?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0420,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0094,What's the interest rate on my loan EOXG54352090421776? My email is karolinemoe@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0573,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0403,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0378,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0256,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0157,What's the interest rate on my loan VUXG11703037637153? My email is nwestman@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0487,"As an existing customer, how do i dispute a transaction?",general_banking,curated,[],13.0,not_applicable
+SYN_0174,Please send my statement for account BIXD66241118600892 to fkauppila@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0338,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0065,Can you transfer 948.22 EUR from account DK1487114731818 to Kevin Taylor?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0435,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0204,"I need to report my card 630409069139 as stolen. I'm Sinikka Haataja, phone +46 (0)573 066 24",PII-heavy,faker_generated,"['PHONE', 'PERSON']",22.1,epsilon_1.0
+SYN_0528,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0151,Why was 2365.77 EUR deducted from my account NO8031465832327 on 2025-10-12?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0512,I'm interested in what's the minimum balance required for a savings account?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0516,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0318,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0148,I'm Crystal Lewis and I can't access my account NO5128997780932. My phone is +44113 496 0967,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0250,I'm Irma Markkanen and I can't access my account GB2092663895058. My phone is 03069990638,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0419,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0045,What's the interest rate on my loan ICSL18023806174451? My email is xostlund@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0291,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0182,What is the balance on my account NO6615467121355?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0100,Why was 1245.15 EUR deducted from my account DK5165297360682 on 2025-10-14?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0482,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0600,How do I activate mobile banking?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0221,Please send my statement for account 27517588914 to hakan58@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0173,Why was 2313.59 EUR deducted from my account DK8433444895475 on 2025-10-22?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0445,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0584,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0312,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0441,Can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],13.0,not_applicable
+SYN_0510,What are your current interest rates for savings accounts?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0037,I'm Elisabeth Boman-Carlsson and I can't access my account SE4141394191175. My phone is +47 99 56 04 66,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",23.400000000000002,epsilon_1.0
+SYN_0434,How does your bank comply with GDPR Article 17 regarding data minimization?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0498,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0288,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0377,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0019,I need to update my phone number to +1-840-324-4550x229 for account 31585149368998,PII-heavy,faker_generated,['PHONE'],15.600000000000001,epsilon_1.0
+SYN_0418,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0604,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0448,What's the minimum balance required for a savings account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0613,"As an existing customer, what credit cards do you offer and what are their benefits?",general_banking,curated,[],19.5,not_applicable
+SYN_0433,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0591,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0381,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0159,Please send my statement for account PDBA94388221145775 to karjalainenanja@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0547,I'm a new customer and can you explain your mobile app features?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0109,Can you check if payment of 3163.06 EUR to Donald Williams-Turner went through from GB5721299488613?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0309,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0562,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0410,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0351,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0321,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0499,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0268,How does your bank comply with GDPR Article 33 regarding lawful processing?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0569,"As an existing customer, what security features protect my online banking?",general_banking,curated,[],14.3,not_applicable
+SYN_0611,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0043,"I need to report my card 4661889241418324 as stolen. I'm Dr. Bonnie Valencia, phone 08-898 364 03",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",22.1,epsilon_1.0
+SYN_0380,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0536,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0064,I'm Leena Koponen and I can't access my account DK9550655476257. My phone is +358 05 1844989,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0108,Please send my statement for account 00537599004 to alexandrasvensson@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0022,Can you check if payment of 4732.06 EUR to Malin Petersson went through from FI6810535418934?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0475,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0187,Can you check if payment of 2380.02 EUR to Olavi Hietanen went through from SE4397913073474?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0409,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0008,Can you check if payment of 3022.8 EUR to Sylvia Martinez went through from SE8058037067228?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0364,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0183,Can you transfer 1201.27 EUR from account NO5178073946751 to Liam Parkinson-Williams?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0101,Can you check if payment of 3470.94 EUR to Sofia Kling went through from NO2087051325197?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0244,I'm Kalevi Salo and I can't access my account FI6621188867190. My phone is +44(0)909 8790014,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0474,What investment products do you offer?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0565,I'm interested in what are the requirements for getting a personal loan?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0171,I'm Amanda Macdonald and I can't access my account DK2850009911492. My phone is (342)514-4773x244,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0188,Please send my statement for account 20948413128403 to haugmaria@example.org,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0583,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0084,What is the balance on my account SE6445853950888?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0119,Can you transfer 1691.73 EUR from account NO3876255081983 to Emma McDonald?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0143,What's the interest rate on my loan SWAZ87884434481230? My email is wongcynthia@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0088,"Update my address to 2944 Smith Creek Apt. 927, Lindseyview, WY 92352 for account number VURZ94905807787956",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0495,I'm a new customer and how do i dispute a transaction?,general_banking,curated,[],14.3,not_applicable
+SYN_0319,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0421,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0301,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0426,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0610,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0514,"As an existing customer, can i get a student loan and what are the terms?",general_banking,curated,[],19.5,not_applicable
+SYN_0504,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0011,I'm Jouko Väyrynen and I can't access my account FI5768204514944. My phone is +44(0)118 4960008,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0529,How do I dispute a transaction?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0580,What are your business hours and branch locations?,general_banking,curated,[],10.4,not_applicable
+SYN_0333,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0133,What is the balance on my account DE2244044540415?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0543,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0390,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0413,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0581,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0050,Please send my statement for account KGGN88444310698720 to jonassoneric@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0266,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0156,Why was 888.6 EUR deducted from my account DK8033697435505 on 2025-10-27?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0314,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0028,"I need to report my card 3588879470551699 as stolen. I'm Tommy Nyman, phone 93584168",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0046,"I need to report my card 5103236519941012 as stolen. I'm Marius Helland, phone (+358) 561853747",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",19.5,epsilon_1.0
+SYN_0111,"Update my address to Solbergvollen 41H, 2031 Ruthfjell for account number ISCY80172260164597",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0129,Can you transfer 339.56 EUR from account DK7222131899411 to Joe Singh?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0184,"I need to report my card 4268653694551588865 as stolen. I'm Edward Armstrong, phone +44(0)1632960854",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0486,I'm a new customer and how do currency exchange rates work for foreign transactions?,general_banking,curated,[],18.2,not_applicable
+SYN_0261,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0071,I'm Thor Lien and I can't access my account DK8793792940214. My phone is +44(0)29 2018829,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0136,Please send my statement for account 59626301367 to martinezdarlene@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0384,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0247,Please send my statement for account 28040561299 to ynguyen@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0479,I'm a new customer and what investment products do you offer?,general_banking,curated,[],14.3,not_applicable
+SYN_0525,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0224,I'm Hellevi Seppälä and I can't access my account FI5761056442241. My phone is 48306503,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0161,I'm Maria Ismail and I can't access my account FI9949127425184. My phone is (+358) 708061294,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0200,Why was 4375.49 EUR deducted from my account NO2810465651899 on 2025-10-27?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0461,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0460,I'm a new customer and can you explain how overdraft protection works?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0166,Please send my statement for account KNBH31903689003010 to sanderberntsen@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0096,Please send my statement for account 84795137116 to nhayes@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0117,Why was 2873.81 EUR deducted from my account SE4076589196976 on 2025-10-18?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0130,What's the interest rate on my loan 75245086403? My email is kjetil70@example.org,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0056,Why was 2717.62 EUR deducted from my account GB5343355428914 on 2025-10-16?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0003,Can you transfer 2872.97 EUR from account FI3992791445199 to Jonas Jakobsen?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0558,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0330,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0436,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0172,I need to update my phone number to +46 (0)318 306 17 for account GRVU00329633472727,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0431,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0357,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0013,I need to update my phone number to 215.545.1680x876 for account 17565512567468,PII-heavy,faker_generated,['PHONE'],15.600000000000001,epsilon_1.0
+SYN_0020,What's the interest rate on my loan APXN22683885160607? My email is hfox@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0521,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0135,Can you check if payment of 389.87 EUR to Molly Gustafsson went through from DK9886995886520?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0016,"Update my address to Pettersenringen 61, 0047 Geirfjord for account number 58842474517",PII-heavy,faker_generated,"['PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0353,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0139,I need to update my phone number to 0816093068 for account CUCC31290148706827,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0530,I'm interested in what fees do you charge for international transfers?,general_banking,curated,[],14.3,not_applicable
+SYN_0432,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0140,Please send my statement for account MLAD67318826170243 to tracy05@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0449,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0175,"I need to report my card 4859592248395894771 as stolen. I'm Karl Eliassen, phone 453 57 788",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0091,Can you transfer 3329.76 EUR from account FI2947887426265 to Prof. Odd Knudsen?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0599,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0348,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0527,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0310,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0326,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0452,Could you please help me understand how do i open a new checking account?,general_banking,curated,[],18.2,not_applicable
+SYN_0087,"I need to report my card 3551971284781894 as stolen. I'm Malin Edvardsen, phone 01134960102",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0176,Please send my statement for account 05622710433187 to joshuahoover@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0555,Could you please help me understand how do i open a new checking account?,general_banking,curated,[],18.2,not_applicable
+SYN_0302,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0393,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0406,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0146,Can you check if payment of 1395.05 EUR to Øystein Arnesen went through from NO5127133698193?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0226,What's the interest rate on my loan 27924632037476? My email is hellstrommonica@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0059,"I need to report my card 4081062003424420433 as stolen. I'm Samir Nilsson, phone 969 34 654",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0429,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0051,What's the interest rate on my loan QSQZ99217223320616? My email is jhawkins@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0440,I'm interested in can you explain how overdraft protection works?,general_banking,curated,[],13.0,not_applicable
+SYN_0076,Can you check if payment of 2805.46 EUR to Ms. Kelly Holder went through from GB3259307812810?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0107,Why was 3469.24 EUR deducted from my account SE8549782709620 on 2025-10-12?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0456,I'm a new customer and what are the requirements for getting a personal loan?,general_banking,curated,[],18.2,not_applicable
+SYN_0316,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0601,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0379,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0592,What investment products do you offer?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0005,What is the balance on my account FI9979246708456?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0317,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0283,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0057,Please send my statement for account EWXB21697972965902 to maureen89@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0145,What's the interest rate on my loan LUJH61721314519515? My email is franzenagnes@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0356,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0334,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0597,I'm interested in how do currency exchange rates work for foreign transactions?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0396,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0248,What's the interest rate on my loan 61016831139500? My email is aukustikorpi@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0567,"As an existing customer, how do i dispute a transaction?",general_banking,curated,[],13.0,not_applicable
+SYN_0606,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0494,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0624,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0324,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0026,Please send my statement for account ZLQH13237058957829 to jani89@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0323,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0128,I'm Sanni Saari and I can't access my account FI1651369014965. My phone is (441)986-2104,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0132,"Update my address to Fagottikatu 728, 79323 Kinnula for account number YCUW66918362644886",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0398,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0067,Why was 4708.14 EUR deducted from my account DK5255642164686 on 2025-10-31?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0467,I'm interested in what security features protect my online banking?,general_banking,curated,[],13.0,not_applicable
+SYN_0363,How does your bank comply with GDPR Article 17 regarding storage limitation?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0532,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0540,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0337,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0412,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0073,"I need to report my card 060465240772 as stolen. I'm Ensio Räsänen-Kaikkonen, phone 474-635-0313x650",PII-heavy,faker_generated,"['PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0274,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0083,Can you check if payment of 3242.45 EUR to Peter Elofsson went through from DK6149973475836?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0343,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0062,Why was 4808.33 EUR deducted from my account GB2367947817881 on 2025-11-07?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0102,What is the balance on my account NO3821241675419?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0053,"Update my address to Ekgränd 4, 72830 Sandviken for account number IUNQ00722903494466",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0554,How do I activate mobile banking?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0308,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0365,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0063,I need to update my phone number to 333-464-5257x77547 for account JTCG57759492995562,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0235,What's the interest rate on my loan LEMS69443916497016? My email is elliottlydia@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0513,I'm interested in what documents do i need to open an account?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0260,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0376,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0458,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0265,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0049,Why was 1994.78 EUR deducted from my account GB5049105456272 on 2025-10-29?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0240,"I need to report my card 4478122489056702 as stolen. I'm Steven Holland, phone 08-00 00 00",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0055,Can you transfer 1437.75 EUR from account GB8035465569244 to Sigrid Nyström?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0004,"I need to report my card 4435346247510799 as stolen. I'm Ann Jonsson, phone (960)464-7468",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0252,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0468,What's the minimum balance required for a savings account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0078,What's the interest rate on my loan JAKW14770538338848? My email is einar70@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0086,"Update my address to 2 Hill loaf, Chapmanmouth, OL4 5DY for account number 66958321971",PII-heavy,faker_generated,"['PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0414,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0223,What is the balance on my account SE7745247311494?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0578,I'm a new customer and can i get a student loan and what are the terms?,general_banking,curated,[],20.8,not_applicable
+SYN_0123,I need to update my phone number to +441174960425 for account LACL08124739500334,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0320,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0612,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0541,I'm interested in what fees do you charge for international transfers?,general_banking,curated,[],14.3,not_applicable
+SYN_0021,Can you transfer 591.97 EUR from account GB7853716707197 to Mark Hogan?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0373,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0539,Can I set up automatic payments for my bills?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0027,"Update my address to Haagan pappilankatu 046, 32595 Kaskinen for account number 69078447364",PII-heavy,faker_generated,"['PHONE', 'PERSON']",16.900000000000002,epsilon_1.0
+SYN_0518,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0048,Can you check if payment of 4678.28 EUR to Catherine Moss went through from GB8495656307805?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0538,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0618,How do I dispute a transaction?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0041,"Update my address to Santerlantie 84, 77590 Saarijärvi for account number 29233095849825",PII-heavy,faker_generated,"['PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0170,Please send my statement for account KKDC66829732702164 to wkarlsen@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0105,I need to update my phone number to 07 00 15 94 for account EGAH47786603242044,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0400,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0607,What are your current interest rates for savings accounts?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0199,What's the interest rate on my loan PHWH33732043097768? My email is sebastian53@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0367,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0272,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0290,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0304,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0408,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0478,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0464,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0590,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0534,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0366,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0243,"Update my address to 32 Graham fork, South Joshualand, W5 1TW for account number BJVU04333353849516",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0362,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0095,I'm Annika Holmberg and I can't access my account NO5978654700025. My phone is 058 046 4989,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0372,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0526,I'm a new customer and what's the minimum balance required for a savings account?,general_banking,curated,[],18.2,not_applicable
+SYN_0430,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0465,I'm a new customer and can you explain how overdraft protection works?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0214,I need to update my phone number to +44(0)1214960461 for account 44858623945,PII-heavy,faker_generated,['PHONE'],15.600000000000001,epsilon_1.0
+SYN_0313,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0269,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0375,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0392,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0327,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0254,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0285,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0219,Can you transfer 3850.96 EUR from account NO8170222927455 to Mathias Sæther?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0090,Please send my statement for account 21244717465 to leinonenseija@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0621,I'm interested in how do currency exchange rates work for foreign transactions?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0437,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0620,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0154,Can you transfer 4661.81 EUR from account DK2535229361353 to Mette-Andrea Christensen?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0212,Why was 2134.21 EUR deducted from my account DK5384307689582 on 2025-10-17?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0471,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0427,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0074,I'm Kåre Mathisen and I can't access my account DE5030416038571. My phone is +358485708620,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0503,"As an existing customer, can you explain your mobile app features?",general_banking,curated,[],14.3,not_applicable
+SYN_0122,Why was 3874.09 EUR deducted from my account SE3461693005795 on 2025-10-26?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0165,What is the balance on my account GB2877173589751?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0476,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0616,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0164,I'm Kåre Ellingsen and I can't access my account SE6626339823994. My phone is 19 01 30 20,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",22.1,epsilon_1.0
+SYN_0570,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0322,How does your bank comply with GDPR Article 15 regarding storage limitation?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0149,What is the balance on my account GB7985697933143?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0485,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0072,What's the interest rate on my loan 86632663416389? My email is nkarjalainen@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0523,Could you please help me understand what are the requirements for getting a personal loan?,general_banking,curated,[],19.5,not_applicable
+SYN_0397,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0422,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0120,What's the interest rate on my loan CTUJ33750479303614? My email is toneandresen@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0225,What's the interest rate on my loan RFHZ05248088062207? My email is leriksson@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0206,What's the interest rate on my loan 60335826862? My email is topias27@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0023,I need to update my phone number to +44113 4960515 for account 13750606853615,PII-heavy,faker_generated,['PHONE'],16.900000000000002,epsilon_1.0
+SYN_0126,What is the balance on my account SE8057863118618?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0025,What's the interest rate on my loan RJKD15447962757059? My email is smithleah@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0307,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0568,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0018,I need to update my phone number to 69847896 for account 61771159212499,PII-heavy,faker_generated,['PHONE'],15.600000000000001,epsilon_1.0
+SYN_0617,How do I dispute a transaction?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0582,"As an existing customer, what credit cards do you offer and what are their benefits?",general_banking,curated,[],19.5,not_applicable
+SYN_0035,Why was 2391.41 EUR deducted from my account SE2280626944126 on 2025-11-06?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0454,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0124,"I need to report my card 36657546027348 as stolen. I'm Kaarina Keskitalo, phone 0725587774",PII-heavy,faker_generated,"['PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0009,Can you transfer 4948.85 EUR from account SE9447335855124 to Andrea Nilsen?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0472,Could you please help me understand what are the requirements for getting a personal loan?,general_banking,curated,[],19.5,not_applicable
+SYN_0215,Can you transfer 2841.52 EUR from account DK2271053182975 to Mika Hokkanen?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0369,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0385,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0522,"As an existing customer, how do currency exchange rates work for foreign transactions?",general_banking,curated,[],16.900000000000002,not_applicable
+SYN_0097,Can you check if payment of 4908.46 EUR to Birgitta Granström went through from GB3186573141239?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0142,What's the interest rate on my loan JDDV08255598953439? My email is simen73@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0080,What's the interest rate on my loan FMPP22330604633312? My email is martinsenharald@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0178,I'm Sverre Simonsen and I can't access my account DE4758371368085. My phone is 3502922216,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0236,Can you check if payment of 4220.67 EUR to Christopher Harrington went through from SE5138158719145?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0451,Can I set up automatic payments for my bills?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0118,Why was 3868.15 EUR deducted from my account GB7090418519121 on 2025-11-05?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0195,Why was 466.93 EUR deducted from my account DK6648687084862 on 2025-11-05?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0273,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0218,What's the interest rate on my loan PIRC13176539705487? My email is ljones@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0587,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0603,I'm a new customer and can you explain your mobile app features?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0559,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0153,What is the balance on my account DE6225274769851?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0402,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0399,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0115,I'm Tonje-Sigrid Sandvik and I can't access my account FI7244756952975. My phone is 081-054 85 10,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0066,"Update my address to Nguyenlunden 21E, 7213 Ødegård for account number 86430098180",PII-heavy,faker_generated,"['PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0443,Could you please help me understand what are the requirements for getting a personal loan?,general_banking,curated,[],19.5,not_applicable
+SYN_0202,What is the balance on my account FI1168694991829?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0457,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0560,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0477,What's the minimum balance required for a savings account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0179,Can you check if payment of 4372.59 EUR to Fredrik Berge went through from NO1118039333700?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0497,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0469,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0277,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0533,What's the minimum balance required for a savings account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0350,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0446,What are your current interest rates for savings accounts?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0193,"I need to report my card 30026086982211 as stolen. I'm Jan Byström-Claesson, phone 0191 498 0227",PII-heavy,faker_generated,"['PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0194,"Update my address to Flat 29V, Emma roads, Port Joeburgh, G0 2RP for account number DPON87290477425859",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0230,What's the interest rate on my loan EDOE21455937661894? My email is anderssonmargareta@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0196,I'm Melissa Sanders and I can't access my account DE9268762015861. My phone is +44(0)808 157 0513,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0463,I'm a new customer and can you explain how overdraft protection works?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0216,What's the interest rate on my loan UBSN87304519577825? My email is lisanygren@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0331,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0374,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0563,I'm a new customer and what security features protect my online banking?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0070,Please send my statement for account 39982455877 to ida96@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0093,Can you check if payment of 4598.87 EUR to Jan Larsson went through from SE3678837534336?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0210,What's the interest rate on my loan NOOK67772266025626? My email is tom30@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0147,"Update my address to Waseniuksen puistopolku 6, 41115 Evijärvi for account number QFAM67849843624186",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",16.900000000000002,epsilon_1.0
+SYN_0017,"I need to report my card 3577589178390844 as stolen. I'm Roger Birkeland, phone +44(0)306 999 0931",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0483,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0036,"Update my address to Flat 1, Barnes club, Rachaelfurt, BB4 7JQ for account number SDQB33974014890250",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0031,Can you transfer 70.1 EUR from account NO1247704694634 to Charles Morris?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0589,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0033,Why was 2496.83 EUR deducted from my account NO9589534594297 on 2025-10-26?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0359,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0177,Why was 1961.11 EUR deducted from my account DK7127474979651 on 2025-10-25?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0217,Can you check if payment of 1721.76 EUR to Karl Svendsen-Evensen went through from GB1657126242022?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0024,I need to update my phone number to +358405153195 for account 21851888880670,PII-heavy,faker_generated,['PHONE'],15.600000000000001,epsilon_1.0
+SYN_0553,Could you please help me understand can i get a student loan and what are the terms?,general_banking,curated,[],22.1,not_applicable
+SYN_0549,What investment products do you offer?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0595,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0382,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0002,Can you transfer 400.29 EUR from account GB7924248078673 to Kate Lamb?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0131,Can you check if payment of 1890.03 EUR to Ritva Rissanen went through from DE8646979767312?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0203,What is the balance on my account FI4318583126655?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0012,Can you transfer 3929.38 EUR from account DE9138039961380 to Kenneth Pritchard?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0614,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0505,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0345,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0237,I'm Ashley Huang and I can't access my account SE6527345082173. My phone is +44(0)1214960055,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0287,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0030,I'm Jacob Hawkins-Bailey and I can't access my account DK7683973030113. My phone is +1-520-282-6773x45401,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0439,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0234,What is the balance on my account DK1285322306317?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0462,How do I open a new checking account?,general_banking,curated,[],10.4,not_applicable
+SYN_0594,I'm interested in how do i open a new checking account?,general_banking,curated,[],14.3,not_applicable
+SYN_0068,Please send my statement for account VWHZ56588043416518 to dawnpratt@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0542,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0029,"I need to report my card 3541986652404153 as stolen. I'm Kenneth Haglund, phone 001-513-807-5626",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0415,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0444,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0262,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0047,Why was 3053.46 EUR deducted from my account DK2550331666754 on 2025-11-05?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0251,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0502,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0368,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0106,Can you transfer 1919.71 EUR from account DE1361117296605 to Mary Everett?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0450,Can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],13.0,not_applicable
+SYN_0060,I need to update my phone number to 08-973 598 93 for account TVXR38638406665800,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0227,Can you check if payment of 1665.02 EUR to Olivia Hamilton went through from DK8782427948850?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0267,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0168,Why was 3637.76 EUR deducted from my account GB9757084816586 on 2025-10-24?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0085,"I need to report my card 344876963938277 as stolen. I'm Ingemar Nilsson, phone +44(0)1144960717",PII-heavy,faker_generated,"['PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0077,What is the balance on my account NO4644438212326?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0275,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0500,I'm a new customer and what documents do i need to open an account?,general_banking,curated,[],18.2,not_applicable
+SYN_0104,Can you transfer 3838.55 EUR from account DE3786195299055 to Karl Olofsson?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0259,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0609,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0425,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0493,Can you explain how overdraft protection works?,general_banking,curated,[],9.1,not_applicable
+SYN_0058,I'm Kerry Evans and I can't access my account FI9152913710895. My phone is 0909 879 0758,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0289,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0040,"I need to report my card 4134074517130 as stolen. I'm Erkki Manninen, phone +358225790507",PII-heavy,faker_generated,"['PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0186,Can you transfer 499.17 EUR from account FI3875117136687 to Joshua Bailey?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0481,How do I dispute a transaction?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0625,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0551,What are your current interest rates for savings accounts?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0270,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0042,Can you check if payment of 3485.02 EUR to Thomas Sivertsen went through from NO6856738096887?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0404,How does your bank comply with GDPR Article 33 regarding data accuracy?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0546,I'm interested in what are the requirements for getting a personal loan?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0387,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0349,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0127,"Update my address to Lundemoen 6, 1856 Dahl for account number AEOC69385977790147",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0391,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0585,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0423,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0341,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0519,How do I activate mobile banking?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0276,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0388,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0242,What's the interest rate on my loan HEVC26942894642036? My email is johanssonarne@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0282,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0360,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0615,Could you please help me understand can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],20.8,not_applicable
+SYN_0192,"I need to report my card 180074817006668 as stolen. I'm Mrs Rosemary Williams, phone (0306)9990502",PII-heavy,faker_generated,"['PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0311,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0383,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0233,"I need to report my card 4618517446004521288 as stolen. I'm Ville Penttinen, phone 001-350-455-6057",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0079,Why was 1392.82 EUR deducted from my account DE7037802422633 on 2025-10-18?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0245,Please send my statement for account GBQG56691062715312 to brittnguyen@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0069,"I need to report my card 3503471754558848 as stolen. I'm Regina Peters, phone +46 (0)763 655 64",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",22.1,epsilon_1.0
+SYN_0113,What's the interest rate on my loan VPEF32971674338005? My email is haakonmyhre@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0114,"Update my address to Sivertsenvika 55, 4892 Kristensen for account number JQFC45653286326667",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0315,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0189,"Update my address to 9 Victor path, Lambertchester, FK3M 4QF for account number YFPA58772216417582",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0152,"Update my address to Eidesvingen 7, 6265 Brittfjord for account number 33786137157660",PII-heavy,faker_generated,"['PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0531,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0328,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0593,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0602,What's the minimum balance required for a savings account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0160,"Update my address to Birkelandgropa 5, 0753 Karlsen for account number PVEO28498247414070",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0395,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0361,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0455,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0459,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0473,I'm a new customer and how do i open a new checking account?,general_banking,curated,[],16.900000000000002,not_applicable
+SYN_0258,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0352,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0208,"Update my address to 591 Brandi Well, Welchmouth, WY 87655 for account number JMGP66046558665254",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0082,What's the interest rate on my loan BVST45101622499982? My email is thomas14@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0158,Can you check if payment of 1495.44 EUR to Axel Lundqvist went through from NO7453771043037?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0579,Can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],13.0,not_applicable
+SYN_0561,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0342,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0032,What is the balance on my account FI1815146543670?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0509,Can I set up automatic payments for my bills?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0596,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0185,Please send my statement for account OFFM40857216966630 to karlmyklebust@example.net,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0335,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0511,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0571,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0294,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0371,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0299,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0155,Please send my statement for account 85601256253 to beatricehoglund@example.net,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0169,Can you check if payment of 589.51 EUR to Maureen Jenkins went through from SE9126468443690?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0515,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0137,Please send my statement for account CRIY01184582603408 to youngjacob@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0386,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0229,What's the interest rate on my loan RNPC20072024559102? My email is fwest@example.org,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0121,"I need to report my card 6011507859311092 as stolen. I'm Henna Niemi, phone 335.305.8319x9717",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0623,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0134,Can you transfer 751.83 EUR from account FI4038472259379 to Mr Philip Stephenson?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0007,I'm Marjaana Karppinen and I can't access my account DE4317118707870. My phone is 062 994 6804,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0255,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0332,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0566,What credit cards do you offer and what are their benefits?,general_banking,curated,[],14.3,not_applicable
+SYN_0144,I need to update my phone number to +358 761820916 for account OFFG97240422693121,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",16.900000000000002,epsilon_1.0
+SYN_0190,"Update my address to Eino Leinon tie 62, 94938 Rautjärvi for account number GVWI45056658833987",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",18.2,epsilon_1.0
+SYN_0098,"I need to report my card 4049478730024471466 as stolen. I'm Elias Mattila, phone +358650455478",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0411,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0089,"I need to report my card 4430091093919 as stolen. I'm Maya Falk Lindberg, phone +358286047658",PII-heavy,faker_generated,"['PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0336,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0438,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0416,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0556,Can I get a student loan and what are the terms?,general_banking,curated,[],14.3,not_applicable
+SYN_0535,What are the requirements for getting a personal loan?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0303,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0346,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0015,Why was 1883.05 EUR deducted from my account DE5044839375710 on 2025-11-07?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0550,How do I dispute a transaction?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0264,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0470,What documents do I need to open an account?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0167,"I need to report my card 30320441384597 as stolen. I'm Mira Lindblad Nyström, phone (+358) 066703362",PII-heavy,faker_generated,"['PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0575,I'm interested in can i set up automatic payments for my bills?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0116,I'm Jennifer Martinez and I can't access my account NO8655261170307. My phone is 01632 960 881,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0198,What's the interest rate on my loan 56527155983? My email is zhellstrom@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0280,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0480,I'm interested in what security features protect my online banking?,general_banking,curated,[],13.0,not_applicable
+SYN_0517,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0138,Why was 418.43 EUR deducted from my account GB2953523386328 on 2025-10-28?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0506,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0537,"As an existing customer, how do currency exchange rates work for foreign transactions?",general_banking,curated,[],16.900000000000002,not_applicable
+SYN_0466,Can you explain your mobile app features?,general_banking,curated,[],9.1,not_applicable
+SYN_0292,What are your data retention policies according to GDPR Article 5?,compliance,curated,[],14.3,not_applicable
+SYN_0344,How does your bank comply with GDPR Article 33 regarding storage limitation?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0110,What is the balance on my account DK7227298273315?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0619,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0010,Why was 3235.88 EUR deducted from my account SE5855548606962 on 2025-11-10?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0605,Can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],13.0,not_applicable
+SYN_0297,Can I request deletion of my data under Article 17 GDPR?,compliance,curated,[],14.3,not_applicable
+SYN_0191,What is the balance on my account NO7329022630611?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0508,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0407,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0038,I need to update my phone number to 001-873-874-1672x4342 for account XWUP93564651939828,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0181,What's the interest rate on my loan CFHG61328507251786? My email is aaron65@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0428,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0180,Please send my statement for account KWDU50267551254278 to zstroem@example.com,PII-heavy,faker_generated,"['IBAN', 'EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0039,Can you transfer 3310.16 EUR from account DK8026041848731 to Thomas Augustsson?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0548,I'm interested in what fees do you charge for international transfers?,general_banking,curated,[],14.3,not_applicable
+SYN_0238,Can you check if payment of 3429.22 EUR to Donald Jackson went through from DE2074846205543?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0092,Why was 2773.23 EUR deducted from my account SE6376786551268 on 2025-10-17?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0061,What is the balance on my account NO5616537003042?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0293,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0329,How do you ensure compliance with MiFID II for investment advice?,compliance,curated,[],14.3,not_applicable
+SYN_0598,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0205,"I need to report my card 3593957865436271 as stolen. I'm Ms Aimee Ingram, phone 0532426425",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",19.5,epsilon_1.0
+SYN_0489,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0488,I'm a new customer and what's the minimum balance required for a savings account?,general_banking,curated,[],18.2,not_applicable
+SYN_0417,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0162,Can you check if payment of 1967.27 EUR to Janet Savage went through from SE5087497395997?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0564,What are your business hours and branch locations?,general_banking,curated,[],10.4,not_applicable
+SYN_0006,Why was 376.14 EUR deducted from my account NO2325197374122 on 2025-10-22?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0586,What are your business hours and branch locations?,general_banking,curated,[],10.4,not_applicable
+SYN_0577,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0484,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0339,How do you handle data breaches according to GDPR Article 33?,compliance,curated,[],14.3,not_applicable
+SYN_0424,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0103,Why was 593.43 EUR deducted from my account FI1234965002120 on 2025-11-09?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0054,"I need to report my card 4712966667600830 as stolen. I'm Johannes Eriksson, phone 08-465 549 47",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",20.8,epsilon_1.0
+SYN_0239,Why was 3204.17 EUR deducted from my account NO3122519564488 on 2025-11-10?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0232,Can you check if payment of 3521.85 EUR to Angela Lucas went through from FI2672299935249?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",19.5,epsilon_1.0
+SYN_0544,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0052,I need to update my phone number to 0508214862 for account JIPW13247546913736,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0249,"Update my address to Åkerstigen 02, 74801 Halmstad for account number MDOR17032119206136",PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0246,Please send my statement for account 49269996996489 to mohamedarmstrong@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0112,Please send my statement for account 77079334960501 to tevensen@example.org,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",11.700000000000001,epsilon_1.0
+SYN_0141,"Update my address to Studio 7, Denise meadow, West Jamieview, FY5 3PB for account number 28234143637",PII-heavy,faker_generated,"['PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0279,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0576,Could you please help me understand how do i open a new checking account?,general_banking,curated,[],18.2,not_applicable
+SYN_0278,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0552,I'm interested in what's the minimum balance required for a savings account?,general_banking,curated,[],15.600000000000001,not_applicable
+SYN_0207,What is the balance on my account SE7175808151684?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0220,What's the interest rate on my loan 31268812282178? My email is emilygalvan@example.com,PII-heavy,faker_generated,"['EMAIL', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0491,How do I order a new card if mine is lost?,general_banking,curated,[],14.3,not_applicable
+SYN_0263,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0453,Could you please help me understand what fees do you charge for international transfers?,general_banking,curated,[],18.2,not_applicable
+SYN_0355,How does your chatbot comply with EU AI Act transparency requirements?,compliance,curated,[],14.3,not_applicable
+SYN_0081,Why was 5049.38 EUR deducted from my account FI1317575107776 on 2025-10-20?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0608,What are your business hours and branch locations?,general_banking,curated,[],10.4,not_applicable
+SYN_0044,What is the balance on my account DE7919986261415?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",10.4,epsilon_1.0
+SYN_0298,Can you explain your legal basis for processing my data under Article 6?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0150,"I need to report my card 3555027275164800 as stolen. I'm Jessica Richmond, phone (0114)4960461",PII-heavy,faker_generated,"['PHONE', 'CARD', 'PERSON']",18.2,epsilon_1.0
+SYN_0354,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0405,How do you ensure data portability under GDPR Article 20?,compliance,curated,[],13.0,not_applicable
+SYN_0389,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0557,What security features protect my online banking?,general_banking,curated,[],9.1,not_applicable
+SYN_0588,I'm a new customer and can you explain the difference between fixed and variable mortgages?,general_banking,curated,[],19.5,not_applicable
+SYN_0125,I'm Jose Juarez and I can't access my account FI4812319961299. My phone is 08-544 439 28,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",20.8,epsilon_1.0
+SYN_0295,What third parties have access to my data and under what GDPR provisions?,compliance,curated,[],16.900000000000002,not_applicable
+SYN_0281,What DPO contact information is available per GDPR Article 37?,compliance,curated,[],13.0,not_applicable
+SYN_0574,How do currency exchange rates work for foreign transactions?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0358,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0492,How long does it take to process a loan application?,general_banking,curated,[],13.0,not_applicable
+SYN_0325,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0501,Can I set up automatic payments for my bills?,general_banking,curated,[],11.700000000000001,not_applicable
+SYN_0213,Can you transfer 1913.99 EUR from account NO6461205276341 to Valerie Morgan?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0296,How can I access my personal data under GDPR Article 15?,compliance,curated,[],14.3,not_applicable
+SYN_0305,What consent mechanisms do you use under GDPR Article 7?,compliance,curated,[],13.0,not_applicable
+SYN_0231,I need to update my phone number to 398.948.7045x069 for account DPYQ33258486899936,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",15.600000000000001,epsilon_1.0
+SYN_0306,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
+SYN_0572,How do I activate mobile banking?,general_banking,curated,[],7.800000000000001,not_applicable
+SYN_0286,What data do you collect under GDPR and how is it protected?,compliance,curated,[],15.600000000000001,not_applicable
+SYN_0253,What security measures comply with GDPR Article 32?,compliance,curated,[],10.4,not_applicable
+SYN_0197,Why was 3272.24 EUR deducted from my account SE6825014558545 on 2025-11-10?,PII-heavy,faker_generated,"['IBAN', 'PHONE', 'PERSON']",14.3,epsilon_1.0
+SYN_0496,What fees do you charge for international transfers?,general_banking,curated,[],10.4,not_applicable
+SYN_0271,Do you use automated decision-making under GDPR Article 22?,compliance,curated,[],11.700000000000001,not_applicable
