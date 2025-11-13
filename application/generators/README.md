@@ -31,9 +31,9 @@ python -m spacy download en_core_web_lg
 
 ```bash
 # Generate all datasets
-python synthetic_queries_generator_fixed.py
-python forum_queries_generator_fixed.py
-python phrasebank_queries_generator_fixed.py
+python synthetic_queries_generator.py
+python forum_queries_generator.py
+python phrasebank_queries_generator.py
 ```
 
 ### 3. Output Files
@@ -351,4 +351,3 @@ Token count range: 52 - 798
 Generation complete!
 ======================================================================
 ```
-
