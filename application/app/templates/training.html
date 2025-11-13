@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Training{% endblock %}
+{% block content %}
+<h2><i class="bi bi-cpu"></i> Training Data Management</h2>
+<div class="card mb-4">
+    <div class="card-header"><h5>Upload Training Data</h5></div>
+    <div class="card-body">
+        <form id="trainingUploadForm" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">File</label>
+                    <input type="file" class="form-control" name="file" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Type</label>
+                    <select class="form-select" name="file_type">
+                        <option value="raw">Raw</option>
+                        <option value="clean">Clean</option>
+                        <option value="examples">Examples</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Dataset</label>
+                    <select class="form-select" name="dataset_type">
+                        <option value="">-</option>
+                        <option value="synthetic">Synthetic</option>
+                        <option value="forum">Forum</option>
+                        <option value="phrasebank">PhraseBank</option>
+                    </select>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label class="form-label">&nbsp;</label>
+                    <button type="submit" class="btn btn-primary w-100">Upload</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header"><h5>Training Files</h5></div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr><th>Filename</th><th>Type</th><th>Dataset</th><th>Samples</th><th>Uploaded</th><th>Actions</th></tr>
+            </thead>
+            <tbody>
+                {% for file in training_files %}
+                <tr>
+                    <td>{{ file.filename }}</td>
+                    <td>{{ file.file_type }}</td>
+                    <td>{{ file.dataset_type or '-' }}</td>
+                    <td>{{ file.num_samples }}</td>
+                    <td>{{ file.uploaded_at.strftime('%Y-%m-%d') }}</td>
+                    <td>
+                        <a href="/training/files/{{ file.id }}/download" class="btn btn-sm btn-info">
+                            <i class="bi bi-download"></i>
+                        </a>
+                        <button class="btn btn-sm btn-danger" onclick="deleteFile({{ file.id }})">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+document.getElementById('trainingUploadForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    try {
+        const response = await fetch('/training/upload', {
+            method: 'POST',
+            body: formData
+        });
+        const data = await response.json();
+        if (data.success) {
+            alert('Upload successful!');
+            location.reload();
+        } else {
+            alert('Error: ' + data.error);
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+    }
+});
+async function deleteFile(id) {
+    if (!confirm('Delete this file?')) return;
+    try {
+        const response = await fetch(`/training/files/${id}`, { method: 'DELETE' });
+        if (response.ok) location.reload();
+    } catch (error) {
+        alert('Error: ' + error.message);
+    }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is a stock?",
+    "answer": "A stock represents ownership in a company. When you buy stock, you become a partial owner of that company and may receive dividends and voting rights."
+  },
+  {
+    "question": "What is the difference between stocks and bonds?",
+    "answer": "Stocks represent equity ownership in a company, while bonds are debt instruments where you lend money to an entity. Stocks typically offer higher potential returns but with more risk, while bonds provide more stable, predictable income."
+  },
+  {
+    "question": "What is a mutual fund?",
+    "answer": "A mutual fund is an investment vehicle that pools money from multiple investors to purchase a diversified portfolio of stocks, bonds, or other securities, managed by professional fund managers."
+  },
+  {
+    "question": "What does market capitalization mean?",
+    "answer": "Market capitalization (market cap) is the total value of a company's outstanding shares, calculated by multiplying the current stock price by the total number of shares. It indicates the company's size and value in the market."
+  },
+  {
+    "question": "What is dividend yield?",
+    "answer": "Dividend yield is the annual dividend payment divided by the stock price, expressed as a percentage. It shows how much cash flow you're getting for each dollar invested in the stock."
+  },
+  {
+    "question": "What is a bull market?",
+    "answer": "A bull market is a period of rising stock prices and positive investor sentiment, typically defined as a 20% increase from recent lows. It's characterized by strong economic growth and investor confidence."
+  },
+  {
+    "question": "What is a bear market?",
+    "answer": "A bear market is a period when stock prices fall by 20% or more from recent highs, accompanied by pessimistic investor sentiment. It often occurs during economic downturns or recessions."
+  },
+  {
+    "question": "What is portfolio diversification?",
+    "answer": "Portfolio diversification is an investment strategy that spreads investments across different asset classes, sectors, and securities to reduce risk. It helps protect against losses in any single investment."
+  },
+  {
+    "question": "What is an IPO?",
+    "answer": "An IPO (Initial Public Offering) is when a private company first sells shares to the public, becoming a publicly traded company. It allows the company to raise capital from public investors."
+  },
+  {
+    "question": "What is the P/E ratio?",
+    "answer": "The P/E ratio (Price-to-Earnings ratio) is calculated by dividing a stock's price by its earnings per share. It helps investors determine if a stock is overvalued or undervalued relative to its earnings."
+  }
+]
