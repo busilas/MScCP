@@ -273,49 +273,6 @@ pytest tests/test_routes.py
    - Mode switching
    - Performance logging
 
-## Deployment
-
-### Docker
-
-```bash
-# Build and run
-docker-compose up -d
-
-# View logs
-docker-compose logs -f chatbot
-
-# Stop
-docker-compose down
-```
-
-### Production Deployment
-
-1. **Update Environment**
-```bash
-FLASK_ENV=production
-SECRET_KEY=<strong-random-key>
-DATABASE_URL=<production-db-url>
-```
-
-2. **Run with Gunicorn**
-```bash
-gunicorn --bind 0.0.0.0:5000 --workers 4 --timeout 120 main:app
-```
-
-3. **Set up Reverse Proxy** (Nginx)
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-
-    location / {
-        proxy_pass http://localhost:5000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
-```
-
 ## API Reference
 
 ### Chat API
