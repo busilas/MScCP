@@ -254,6 +254,10 @@ pytest --cov=app tests/
 pytest tests/test_guardian.py
 pytest tests/test_models.py
 pytest tests/test_routes.py
+pytest tests/test_api.py
+pytest tests/test_auth.py
+python tests/test_adversarial_attacks.py
+python tests/test_prompt_engineering.py
 ```
 
 ### Test Categories
