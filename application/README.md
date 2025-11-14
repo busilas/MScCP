@@ -654,21 +654,6 @@ Academic project for MSc demonstration purposes.
 
 ---
 
-## Support
-
-For issues or questions:
-- Check troubleshooting section above
-- Review test cases in `tests/` for examples
-- Examine code comments and docstrings
-- Check project documentation files:
-  - `QUICKSTART.md` - Fast setup guide
-  - `DEPLOYMENT.md` - Production deployment
-  - `TRAINING_GUIDE_REAL.md` - Model training
-  - `ADVERSARIAL_TESTING_GUIDE.md` - Security testing
-  - `PROMPT_ENGINEERING_GUIDE.md` - Prompt optimization
-
----
-
 ## Acknowledgments
 
 - **Hugging Face Transformers** - DistilBERT and model infrastructure
