@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is a stock?",
+    "answer": "A stock represents ownership in a company. When you buy stock, you become a partial owner of that company and may receive dividends and voting rights.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What is the difference between stocks and bonds?",
+    "answer": "Stocks represent equity ownership in a company, while bonds are debt instruments where you lend money to an entity. Stocks typically offer higher potential returns but with more risk, while bonds provide more stable, predictable income.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What is a mutual fund?",
+    "answer": "A mutual fund is an investment vehicle that pools money from multiple investors to purchase a diversified portfolio of stocks, bonds, or other securities, managed by professional fund managers.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What does market capitalization mean?",
+    "answer": "Market capitalization (market cap) is the total value of a company's outstanding shares, calculated by multiplying the current stock price by the total number of shares. It indicates the company's size and value in the market.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What is dividend yield?",
+    "answer": "Dividend yield is the annual dividend payment divided by the stock price, expressed as a percentage. It shows how much cash flow you're getting for each dollar invested in the stock.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What is a bull market?",
+    "answer": "A bull market is a period of rising stock prices and positive investor sentiment, typically defined as a 20% increase from recent lows. It's characterized by strong economic growth and investor confidence.",
+    "intent": "market_analysis"
+  },
+  {
+    "question": "What is a bear market?",
+    "answer": "A bear market is a period when stock prices fall by 20% or more from recent highs, accompanied by pessimistic investor sentiment. It often occurs during economic downturns or recessions.",
+    "intent": "market_analysis"
+  },
+  {
+    "question": "What is portfolio diversification?",
+    "answer": "Portfolio diversification is an investment strategy that spreads investments across different asset classes, sectors, and securities to reduce risk. It helps protect against losses in any single investment.",
+    "intent": "investment_strategy"
+  },
+  {
+    "question": "What is an IPO?",
+    "answer": "An IPO (Initial Public Offering) is when a private company first sells shares to the public, becoming a publicly traded company. It allows the company to raise capital from public investors.",
+    "intent": "investment_education"
+  },
+  {
+    "question": "What is the P/E ratio?",
+    "answer": "The P/E ratio (Price-to-Earnings ratio) is calculated by dividing a stock's price by its earnings per share. It helps investors determine if a stock is overvalued or undervalued relative to its earnings.",
+    "intent": "market_analysis"
+  },
+  {
+    "question": "What's my account balance?",
+    "answer": "Your current account balance is $5,250.00",
+    "intent": "account_balance"
+  },
+  {
+    "question": "Show me my recent transactions",
+    "answer": "Here are your recent transactions for the past 7 days",
+    "intent": "transaction_history"
+  },
+  {
+    "question": "I want to apply for a loan",
+    "answer": "We offer personal loans, auto loans, and home loans with competitive rates",
+    "intent": "loan_application"
+  },
+  {
+    "question": "How do I transfer money?",
+    "answer": "You can transfer money by selecting Transfer from the main menu",
+    "intent": "transfer_money"
+  },
+  {
+    "question": "What are your interest rates?",
+    "answer": "Our savings account offers 2.5% APY and checking accounts earn 0.1% APY",
+    "intent": "account_inquiry"
+  },
+  {
+    "question": "I need to report a lost card",
+    "answer": "I can help you freeze your card immediately. Please call 1-800-BANK for a replacement",
+    "intent": "card_services"
+  },
+  {
+    "question": "What's the minimum balance?",
+    "answer": "Standard checking requires $100 minimum, premium checking requires $500",
+    "intent": "account_inquiry"
+  },
+  {
+    "question": "Are there any fees?",
+    "answer": "No monthly fees if you maintain the minimum balance or set up direct deposit",
+    "intent": "account_inquiry"
+  },
+  {
+    "question": "How do I deposit a check?",
+    "answer": "Use our mobile app to deposit checks by taking a photo of the front and back",
+    "intent": "deposit"
+  },
+  {
+    "question": "I want to open a savings account",
+    "answer": "Great! Our savings accounts offer competitive interest rates and no minimum opening deposit",
+    "intent": "account_opening"
+  }
+]

@@ -1,0 +1,351 @@
+{% extends "base.html" %}
+{% block title %}Training{% endblock %}
+{% block content %}
+<h2><i class="bi bi-cpu"></i> Training Data Management</h2>
+
+<!-- Upload Section -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h5><i class="bi bi-cloud-upload"></i> Upload Training Data</h5>
+    </div>
+    <div class="card-body">
+        <form id="trainingUploadForm" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">File (JSON, TXT, CSV)</label>
+                    <input type="file" class="form-control" name="file" accept=".json,.txt,.csv,.jsonl" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Type</label>
+                    <select class="form-select" name="file_type">
+                        <option value="raw">Raw Data</option>
+                        <option value="clean">Cleaned Data</option>
+                        <option value="examples">Training Examples</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Dataset Category</label>
+                    <select class="form-select" name="dataset_type">
+                        <option value="">None</option>
+                        <option value="synthetic">Synthetic</option>
+                        <option value="forum">Forum</option>
+                        <option value="phrasebank">PhraseBank</option>
+                    </select>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label class="form-label">&nbsp;</label>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-upload"></i> Upload
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" class="form-control" name="description" placeholder="Optional description...">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Dataset Statistics -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h5><i class="bi bi-bar-chart"></i> Dataset Statistics</h5>
+    </div>
+    <div class="card-body">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <h3 class="text-primary">{{ stats.total_files or 0 }}</h3>
+                <p class="text-muted">Total Files</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-success">{{ stats.total_samples or 0 }}</h3>
+                <p class="text-muted">Total Samples</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-info">{{ stats.raw_files or 0 }}</h3>
+                <p class="text-muted">Raw Files</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-warning">{{ stats.clean_files or 0 }}</h3>
+                <p class="text-muted">Clean Files</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Training Files List -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h5><i class="bi bi-file-earmark-text"></i> Training Files</h5>
+    </div>
+    <div class="card-body">
+        {% if training_files %}
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Filename</th>
+                    <th>Type</th>
+                    <th>Dataset</th>
+                    <th>Samples</th>
+                    <th>Size</th>
+                    <th>Uploaded</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for file in training_files %}
+                <tr>
+                    <td>
+                        <i class="bi bi-file-earmark-code"></i> {{ file.filename }}
+                        {% if file.processed %}
+                        <span class="badge bg-success">Processed</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <span class="badge bg-{{ 'primary' if file.file_type == 'raw' else 'success' if file.file_type == 'clean' else 'info' }}">
+                            {{ file.file_type }}
+                        </span>
+                    </td>
+                    <td>{{ file.dataset_type or '-' }}</td>
+                    <td>{{ file.num_samples }}</td>
+                    <td>{{ (file.file_size / 1024) | round(1) }} KB</td>
+                    <td>{{ file.uploaded_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                    <td>
+                        <div class="btn-group btn-group-sm" role="group">
+                            <!-- Download Button -->
+                            <a href="/training/files/{{ file.id }}/download" class="btn btn-outline-info" title="Download">
+                                <i class="bi bi-download"></i>
+                            </a>
+                            <!-- Preprocess Button (only for raw files) -->
+                            {% if file.file_type == 'raw' and not file.processed %}
+                            <button class="btn btn-outline-success" onclick="preprocessFile({{ file.id }}, '{{ file.filename }}')" title="Preprocess">
+                                <i class="bi bi-gear"></i>
+                            </button>
+                            {% endif %}
+                            <!-- Delete Button -->
+                            <button class="btn btn-outline-danger" onclick="deleteFile({{ file.id }})" title="Delete">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i> No training files uploaded yet. Upload your first file above.
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Training Controls -->
+<div class="card">
+    <div class="card-header">
+        <h5><i class="bi bi-play-circle"></i> Start Training</h5>
+    </div>
+    <div class="card-body">
+        <form id="trainingForm">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Select Clean Files for Training</label>
+                    <select multiple class="form-select" id="trainingFiles" size="5">
+                        {% for file in training_files %}
+                        {% if file.file_type == 'clean' %}
+                        <option value="{{ file.id }}">{{ file.filename }} ({{ file.num_samples }} samples)</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                    <small class="text-muted">Hold Ctrl/Cmd to select multiple files</small>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label class="form-label">Epochs</label>
+                            <input type="number" class="form-control" id="epochs" value="3" min="1" max="10">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label class="form-label">Batch Size</label>
+                            <input type="number" class="form-control" id="batchSize" value="4" min="1" max="16">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label">Learning Rate</label>
+                            <input type="text" class="form-control" id="learningRate" value="0.0002">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-success">
+                <i class="bi bi-play-circle"></i> Start Training
+            </button>
+            <div class="mt-3">
+                <div class="alert alert-warning">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    <strong>Note:</strong> Training requires significant computational resources. This is a proof-of-concept implementation for academic purposes.
+                </div>
+            </div>
+        </form>
+        <div id="trainingStatus" class="mt-3" style="display:none;">
+            <div class="alert alert-info">
+                <h6><i class="bi bi-hourglass-split"></i> Training in Progress</h6>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressBar" role="progressbar" style="width: 0%"></div>
+                </div>
+                <p id="statusText" class="mt-2 mb-0">Initializing...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Upload Form Handler
+document.getElementById('trainingUploadForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Uploading...';
+
+    try {
+        const response = await fetch('/training/upload', {
+            method: 'POST',
+            body: formData
+        });
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+            alert(`✓ Upload successful!\nFile: ${data.filename}\nSamples: ${data.num_samples}`);
+            location.reload();
+        } else {
+            alert('Error: ' + (data.error || 'Upload failed'));
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<i class="bi bi-upload"></i> Upload';
+    }
+});
+
+// Preprocess File Function
+async function preprocessFile(fileId, filename) {
+    if (!confirm(`Preprocess file: ${filename}?\n\nThis will apply:\n• Text cleaning\n• PII removal\n• Format normalization`)) {
+        return;
+    }
+
+    try {
+        const response = await fetch('/training/preprocess', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                file_id: fileId,
+                operations: ['clean', 'remove_pii']
+            })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+            alert(`✓ Preprocessing complete!\n\nOutput: ${data.output_file}\nSamples: ${data.num_samples}`);
+            location.reload();
+        } else {
+            alert('Error: ' + (data.error || 'Preprocessing failed'));
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+    }
+}
+
+// Delete File Function
+async function deleteFile(id) {
+    if (!confirm('Delete this file permanently?')) return;
+
+    try {
+        const response = await fetch(`/training/files/${id}`, { method: 'DELETE' });
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+            alert('✓ File deleted successfully');
+            location.reload();
+        } else {
+            alert('Error: ' + (data.error || 'Delete failed'));
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+    }
+}
+
+// Training Form Handler
+document.getElementById('trainingForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const select = document.getElementById('trainingFiles');
+    const selected = Array.from(select.selectedOptions).map(opt => parseInt(opt.value));
+
+    if (selected.length === 0) {
+        alert('Please select at least one clean file for training');
+        return;
+    }
+
+    const epochs = parseInt(document.getElementById('epochs').value);
+    const batchSize = parseInt(document.getElementById('batchSize').value);
+    const learningRate = parseFloat(document.getElementById('learningRate').value);
+
+    if (!confirm(`Start training with:\n• Files: ${selected.length}\n• Epochs: ${epochs}\n• Batch Size: ${batchSize}\n• Learning Rate: ${learningRate}\n\nThis may take a long time!`)) {
+        return;
+    }
+
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Starting...';
+
+    document.getElementById('trainingStatus').style.display = 'block';
+
+    try {
+        const response = await fetch('/training/train', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                training_file_ids: selected,
+                epochs: epochs,
+                batch_size: batchSize,
+                learning_rate: learningRate
+            })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+            document.getElementById('statusText').textContent = data.message;
+            alert(`✓ Training started!\nJob ID: ${data.job_id}\nSamples: ${data.num_samples}`);
+
+            // Simulate progress (in real implementation, poll for actual progress)
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 5;
+                document.getElementById('progressBar').style.width = progress + '%';
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    document.getElementById('statusText').textContent = 'Training complete! (Simulated)';
+                    btn.disabled = false;
+                    btn.innerHTML = '<i class="bi bi-play-circle"></i> Start Training';
+                }
+            }, 1000);
+        } else {
+            alert('Error: ' + (data.error || 'Training failed to start'));
+            document.getElementById('trainingStatus').style.display = 'none';
+            btn.disabled = false;
+            btn.innerHTML = '<i class="bi bi-play-circle"></i> Start Training';
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+        document.getElementById('trainingStatus').style.display = 'none';
+        btn.disabled = false;
+        btn.innerHTML = '<i class="bi bi-play-circle"></i> Start Training';
+    }
+});
+</script>
+{% endblock %}
