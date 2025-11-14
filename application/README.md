@@ -558,7 +558,6 @@ project/
 ├── uploads/                           # User-uploaded documents
 ├── data/
 │   └── faiss_index/                   # FAISS vector index
-├── models/                            # Saved fine-tuned models
 ├── main.py                            # Application entry point
 ├── requirements.txt                   # Python dependencies
 ├── pytest.ini                         # Test configuration
@@ -692,4 +691,3 @@ Edit `app/services/llama_service.py` line 269-285 to reorder:
 - **Password**: `admin123`
 
 **Change immediately after first login!**
-
