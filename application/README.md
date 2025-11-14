@@ -422,36 +422,6 @@ python utils/train_llama.py \
 
 ---
 
-## Deployment
-
-### Docker (Recommended)
-
-```bash
-# Build and run
-docker-compose up -d
-
-# View logs
-docker-compose logs -f chatbot
-
-# Stop
-docker-compose down
-```
-
-### Production (Gunicorn)
-
-```bash
-# 1. Update .env
-FLASK_ENV=production
-SECRET_KEY=<strong-random-key>
-
-# 2. Run with Gunicorn
-gunicorn --bind 0.0.0.0:5000 --workers 4 --timeout 120 main:app
-
-# 3. Set up Nginx reverse proxy
-# See DEPLOYMENT.md for full instructions
-```
-
----
 
 ## Troubleshooting
 
