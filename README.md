@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="https://www.click4assistance.co.uk/dyn/blogs/STK_Uni_of_Essex_Logo2_42.png" alt="logo)" height="240"/>
+<img src="https://github.com/busilas/cib/blob/main/UOElogo.png" alt="logo)" height="240"/>
 </p>
 
 <h1 align="center">
