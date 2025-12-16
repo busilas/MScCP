@@ -3,7 +3,6 @@
 <p align="center">
 <img src="https://github.com/busilas/cib/blob/main/UOElogo.png" alt="logo)" height="240"/>
 </p>
-
 <h1 align="center">
 MSc Computing Project<br>April 2025
 </h1>
