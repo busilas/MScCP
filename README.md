@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="https://github.com/busilas/cib/blob/main/UOElogo.png" alt="logo)" height="240"/>
+<img src="https://www.romstorprojects.co.uk/wp-content/uploads/university-of-essex-logo.png" alt="logo)" height="240"/>
 </p>
 <h1 align="center">
 MSc Computing Project<br>April 2025
